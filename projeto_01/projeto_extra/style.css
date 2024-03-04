@@ -6,11 +6,13 @@
 
 body {
     text-align: center;
+    min-height: 100vh;
 }
 
 main {
     width: 626px;
-    margin: 64px auto;
+    margin: 0 auto;
+    padding: 64px;
 }
 
 main img {
@@ -61,4 +63,6 @@ footer a + a {
 
 #wave {
     width: 100%;
+    position: absolute;
+    left: 0;
 }
